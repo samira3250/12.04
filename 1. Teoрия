@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+  char fruits[6]; 
+  int size = sizeof(fruits); 
+  printf("Размер коробки fruits: %d байт\n", size);
+  return 0;
+}
